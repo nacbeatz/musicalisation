@@ -1,2 +1,31 @@
-* {font-family: sans-serif;
-box-sizing: border-box;}
+* {
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #E5E5E5;
+}
+
+.header_nav_contact {
+  display: flex;
+  height: 73px;
+  background-color: #FF7A00;
+  margin-bottom: 33px;}
+
+.header_nav_contact_item {
+    font-weight: bold;
+    color: #000000;
+    padding: 33px;
+
+  }
+
+.contact_form {
+  display: flex;
+  width: 600px;
+  height: 400px;
+  flex-direction: column;
+  background-color: #C4C4C4;
+  border-radius: 10px;
+  padding: 25px;
+}
