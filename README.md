@@ -1,2 +1,10 @@
-# musicalisation
-Site test de donner "un seul au monde" mot clé au google.
+# toto
+Découvert de Git et Github
+
+## Sous-titre
+npm install
+
+npm run start pour la dev
+
+npm run build pour la prod
+
