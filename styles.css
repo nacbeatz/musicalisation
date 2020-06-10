@@ -197,6 +197,10 @@ footer div:nth-child(n+2) {
 .contact_form h3 {
     margin: 2rem;
 }
+.contact_form h4 {
+    margin: 4rem;
+    color:red
+}
 
 .slider-image span {
     width: 54%;
