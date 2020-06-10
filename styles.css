@@ -159,7 +159,7 @@ aside h3:nth-child(n+2) {
 .index_main-slider {
     min-height: 60vh;
     border: 1px solid rgba(249, 129, 0, 0.2);
-    margin: .5rem 0;
+    margin: 0;
     display: flex;
     flex-direction: row;
 }
