@@ -549,6 +549,8 @@ select {
     -ms-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
     outline: none;
+
+
 }
 
 .form-style-1 input[type="text"]:focus,
@@ -644,12 +646,13 @@ select {
 
 
 
-/*mobile version*/
+/*=================================mobile version============================*/
 
 @media all and (max-width: 600px) {
     body {
         background-color: silver;
         overflow-x: hidden;
+        padding: 0;
     }
 
     header {
@@ -659,6 +662,7 @@ select {
         flex-direction: row;
         width: 100%;
         height: 8vh;
+        margin-bottom: 2rem;
     }
 
     .square {
@@ -666,19 +670,48 @@ select {
     }
 
     #header_logo img {
-        width: 20%;
-        height: 6vh;
+        width: 13vw;
+        height: 8vh;
     }
 
     nav ul {
         display: none;
-        width: 0px;
+        width: 100%;
+        z-index: 1;
+        position: absolute;
+        top: 10vh;
+        left: 0;
+        background-color: #ff7a00;
+        text-align: left;
+        min-height: 50vh;
+    }
+
+    nav ul li {
+        line-height: 4rem;
+        width: 50vw;
+        list-style: none;
+    }
+
+    nav ul li:first-child {
+        padding-top: 1rem;
     }
 
     nav span {
-        position: relative;
-        top: -3.5vh;
+        position: absolute;
+        top: 2vh;
         color: #ff7a00;
+    }
+
+    .slider-textbox h1 {
+        letter-spacing: 0.05rem;
+        font-size: 2rem;
+        margin: -1rem 0 2rem 0;
+    }
+
+    .slider-textbox h2 {
+        font-size: 1rem;
+        margin: -1rem 0 4rem 0;
+        font-weight: normal;
     }
 
     .fas {
@@ -689,6 +722,7 @@ select {
         min-height: 60vh;
         display: flex;
         flex-direction: column;
+        z-index: -1
     }
 
     .second {
@@ -710,14 +744,20 @@ select {
     }
 
     .slider-image span {
-        width: 70%;
-        margin-top: 30vh;
-        font-size: 2rem;
-
+        width: 100%;
+        margin-top: 26vh;
+        font-size: 1.2rem;
+        left: 0
     }
 
     .index_main-container {
         text-align: center;
+        padding: 0;
+    }
+
+    .index_main-container span {
+        text-align: center;
+        padding: 0;
     }
 
     article {
@@ -738,11 +778,17 @@ select {
         display: none;
     }
 
+    footer ul {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+    }
+
     footer ul img {
 
         width: 1.5rem;
         height: 1.5rem;
-        fill: currentcolor;
     }
 
     .container_body {
