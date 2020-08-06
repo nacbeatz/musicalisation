@@ -891,6 +891,11 @@ select {
         font-size: 1.2rem;
     }
 
+    .first img {
+
+        width: 100%;
+    }
+
     .second {
         height: 80vh;
 
