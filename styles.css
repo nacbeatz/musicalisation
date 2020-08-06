@@ -508,6 +508,29 @@ button:hover {
     margin-top: 4rem;
 }
 
+.about {
+    color: rgb(45, 45, 45);
+
+}
+
+.about em:nth-child(2) {
+    margin-top: 2rem
+}
+
+.about h3 {
+    font-size: 1.2rem
+}
+
+.about p {
+    padding: 0 2rem
+}
+
+.about_img {
+    margin-top: 4rem;
+    width: 100%;
+    text-align: center;
+}
+
 .form-style-1 {
     margin: 10px auto;
     max-width: 400px;
@@ -720,6 +743,18 @@ select {
 
     .fas {
         font-size: 2.5rem
+    }
+
+    .about ul {
+        list-style-type: none;
+    }
+
+    .about span {
+        width: 100%;
+    }
+
+    .index_main-container {
+        padding-bottom: 1rem;
     }
 
     .index_main-slider {
