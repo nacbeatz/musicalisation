@@ -439,6 +439,14 @@ footer ul img {
     margin: 2rem;
 }
 
+.contact_form span {
+    margin: 2rem 1rem;
+}
+
+.contact_form label {
+    font-weight: bold;
+}
+
 .slider-image span {
     width: 54%;
     height: auto;
@@ -513,7 +521,14 @@ button:hover {
 }
 
 .about {
-    color: rgb(45, 45, 45);
+    color: rgb(82, 82, 82);
+
+}
+
+.who_am_i {
+    font-size: 1.2rem;
+    color: rgb(82, 82, 82);
+    line-height: 2rem;
 
 }
 
@@ -892,7 +907,6 @@ select {
     }
 
     .first img {
-
         width: 100%;
     }
 
