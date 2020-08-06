@@ -254,6 +254,10 @@ aside h3:nth-child(n + 2) {
     width: 220px;
 }
 
+.user-avatar img {
+    width: 30%;
+}
+
 .user-avatar:hover {
     cursor: pointer;
 }
@@ -265,7 +269,7 @@ aside h3:nth-child(n + 2) {
     padding: 5px;
     margin: 5px;
     /*border-radius: 30% 70% 31% 69% / 52% 22% 78% 48%;*/
-    border-radius: 10% 10% 0% 0% / 20% 10% 20% 0%;
+    border-radius: 5% 5% 0% 0% / 5% 10% 5% 0%;
     box-shadow: 6px 6px black;
     transition: all 0.4s ease-in-out;
 }
@@ -745,6 +749,12 @@ select {
         font-size: 2.5rem
     }
 
+    .square img {
+        width: 90%;
+        height: 350px;
+    }
+
+
     .about ul {
         list-style-type: none;
     }
@@ -753,8 +763,37 @@ select {
         width: 100%;
     }
 
-    .index_main-container {
-        padding-bottom: 1rem;
+    .index_main-container span {
+        width: 100%;
+    }
+
+    .user-avatar {
+        position: relative;
+        margin: 0 auto;
+        width: 90%;
+    }
+
+    .user-avatar img {
+        position: relative;
+        margin: 0 auto;
+        width: 90%;
+        height: 60vh;
+        margin-bottom: 1rem;
+    }
+
+    .slider-image_portfolio {
+        width: 100%;
+        height: 100%;
+        padding: 2rem;
+        background-color: white;
+        border-radius: 1rem 1rem 0 0;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .slider-image_portfolio img {
+        width: 45%;
+        height: 50vh;
     }
 
     .index_main-slider {
